@@ -1,0 +1,185 @@
+.user-portal {
+  max-width: 1100px;
+  margin: 20px auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  padding: 0 16px;
+}
+
+.role-selector-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.toggle-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.toggle-btn {
+  padding: 10px 18px;
+  border: 2px solid #e2e8f0;
+  background: #f8fafc;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.toggle-btn.active {
+  background: #0ea5e9;
+  border-color: #0ea5e9;
+  color: #ffffff;
+}
+
+.mode-banner {
+  margin: 18px 0;
+  padding: 14px 20px;
+  border-radius: 8px;
+}
+.mode-banner.adopter {
+  background: #f0fdf4;
+  border-left: 5px solid #22c55e;
+  color: #166534;
+}
+.mode-banner.buyer {
+  background: #eff6ff;
+  border-left: 5px solid #3b82f6;
+  color: #1e40af;
+}
+
+.pet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.pet-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+}
+
+.pet-thumbnail {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.pet-body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.card-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.species-badge {
+  font-size: 11px;
+  background: #f1f5f9;
+  padding: 2px 8px;
+  border-radius: 12px;
+  color: #475569;
+}
+
+.pet-meta {
+  color: #64748b;
+  font-size: 13px;
+  margin: 4px 0 12px;
+}
+
+.fee-text {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.care-box {
+  background: #f8fafc;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.care-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #334155;
+}
+
+.needs-list {
+  list-style: none;
+  padding: 0;
+  margin: 6px 0 0;
+  font-size: 12px;
+}
+
+.needs-list li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.funding {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.price-value {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.card-actions {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.btn-adopt {
+  background: #22c55e;
+  color: #fff;
+}
+.btn-sponsor {
+  background: #f59e0b;
+  color: #fff;
+}
+.btn-buy {
+  background: #2563eb;
+  color: #fff;
+}
+.btn-outline {
+  background: transparent;
+  border: 1px solid #cbd5e1;
+  color: #334155;
+}
+
+.alert-success {
+  background: #dcfce7;
+  color: #166534;
+  padding: 12px;
+  border-radius: 6px;
+  text-align: center;
+}
